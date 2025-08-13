@@ -1,0 +1,125 @@
+#nav_bar{
+    background-color: rgb(73, 73, 73);
+    color: whitesmoke;
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+    height: 70px;
+    width: 2000px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+#main_cont{
+    background-color: whitesmoke;
+    width: 2000px;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#feed{
+    font-size: xx-large;
+}
+#content{
+    display:flex;
+    justify-content: space-around;
+    background-color: whitesmoke;
+    width: 2000px;
+    height: 1000px;
+}
+#profile{
+    border: 5px solid black;
+    width: 500px;
+    height: 550px;
+    text-align: center;
+    font-size: xx-large;
+    border-radius: 10px;
+    position: relative;
+    top: 100px;
+}
+#profile > img{
+    width: 400px;
+    height: 400px;
+    margin: 20px 50px 0px 50px;
+    border-radius: 50%;
+    border: 3px solid black;
+}
+#posts{
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    height: 900px;
+}
+#post1{
+    width: 900px;
+    height: 300px;
+    border: 5px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: x-large;
+    padding: 10px;
+    margin: 10px;
+    position: relative;
+    border-radius: 10px;
+}
+#stats1{
+    position: relative;
+    left: 290px;
+}
+#likesb1{
+    width: 80px;
+    height: 25px;
+    background-color: yellow;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+#post2{
+    width: 900px;
+    height: 300px;
+    border: 5px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: x-large;
+    padding: 10px;
+    margin: 10px;
+    position: relative;
+    border-radius: 10px;
+}
+#stats2{
+    position: relative;
+    left: 250px;
+}
+#likesb2{
+    width: 80px;
+    height: 25px;
+    background-color: yellow;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+#post3{
+    width: 900px;
+    height: 300px;
+    border: 5px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: x-large;
+    padding: 10px;
+    margin: 10px;
+    position: relative;
+    border-radius: 10px;
+}
+#stats3{
+    position: relative;
+    left: 320px;
+}
+#likesb3{
+    width: 80px;
+    height: 25px;
+    background-color: yellow;
+    border: 3px solid black;
+    border-radius: 10px;
+}
